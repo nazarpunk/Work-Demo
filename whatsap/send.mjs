@@ -48,5 +48,6 @@ export const Send = async (phone, keys) => {
     console.log('Data:', data)
 }
 
-
-Send('380958828132', k)
+// WhatsApp accout for test recieve
+const phone = '380958828132'
+Send(phone, k)
