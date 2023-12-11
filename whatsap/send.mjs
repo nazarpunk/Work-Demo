@@ -13,7 +13,7 @@ const k = keys
 /**
  * @param {string} phone
  * @param {WhatsAppKeys} keys
- * @constructor
+ * @see https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-messages/
  */
 export const Send = async (phone, keys) => {
 
