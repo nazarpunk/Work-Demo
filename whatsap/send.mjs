@@ -3,11 +3,18 @@ import keys from './keys.mjs'
 /** @type {WhatsAppKeys} */
 const k = keys
 
-/** @typedef {Object} WhatsAppKeys
+// use import or
+/*
+const k = {
+    phoneId: '1234567890...',
+    token: 'qwertyuio...'
+}
+ */
+
+/**
+ * @typedef {Object} WhatsAppKeys
  * @property {string} token
- * @property {string} appId
  * @property {string} phoneId
- * @property {string} accountId
  */
 
 /**
